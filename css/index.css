@@ -300,7 +300,6 @@ section>img {
 
 /* phone */
 @media (max-width: 500px) {
-	
 	/* navigation */
 	.nav-links {
 		flex-direction: column;
@@ -339,4 +338,15 @@ section>img {
 		padding: 1.5px;
 	}
 
+	/* SERVICES PAGE */
+	.card-items,
+	.services-facts {
+		flex-direction: column;
+	}
+
+	.card-items .card,
+	.services-facts .col {
+		width: 100%;
+	}
+	
 }
