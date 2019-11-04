@@ -323,4 +323,20 @@ section>img {
 		font-size: 20px;
 	}
 
+	/* intro section */
+	.intro-section {
+		margin-top: 11%;
+		margin-bottom: 7%;
+	}
+
+	/* grid system */
+	.row {
+		flex-direction: column;
+	}
+
+	.row .col {
+		margin-bottom: 5%;
+		padding: 1.5px;
+	}
+
 }
