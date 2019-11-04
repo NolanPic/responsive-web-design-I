@@ -105,13 +105,25 @@ nav {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+}
+
+.nav-links {
+	width: 63%;
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
 }
 
-nav a {
+.nav-links a {
 	text-decoration: none;
 	color: #ccc;
 	font-weight: bold;
+}
+
+.logo-link {
+	width: 34%;	
+	display: flex;
+	justify-content: flex-end;
 }
 
 /* CTA button */
@@ -242,35 +254,13 @@ section>img {
 	}
 }
 
-/* mobile */
-@media (min-width: 481px) and (max-width: 767px) {
+/* tablet */
+@media (max-width: 800px) {
 
-	/* nav */
-	nav {
-		flex-direction: column;
-	}
+	
+}
 
-	nav>* {
-		margin-bottom: 2%;
-	}
-
-	nav a:last-child {
-		order: -1;
-		margin-bottom: 3%;
-	}
-
-	/* columns and card items */
-	.row, .card-items {
-		flex-direction: column;
-	}
-
-	.card-items .card,
-	.services-facts .col {
-		width: 100%;
-	}
-
-	.intro-heading {
-		margin-left: 0;
-	}
+/* phone */
+@media (max-width: 500px) {
 
 }
