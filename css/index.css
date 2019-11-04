@@ -257,6 +257,30 @@ section>img {
 /* tablet */
 @media (max-width: 800px) {
 
+	.container {
+		width: 90%;
+	}
+
+	nav {
+		flex-direction: column;
+	}
+
+	/* selects both .nav-links and .logo-link */
+	.nav-links,
+	.logo-link {
+		width: 100%;
+	}
+
+	/* logo */
+	.logo-link {
+		justify-content: center;
+		order: 1;
+		margin-bottom: 4.5%;
+	}
+
+	.nav-links {
+		order: 2;
+	}
 	
 }
 
